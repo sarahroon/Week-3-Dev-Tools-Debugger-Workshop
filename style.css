@@ -1,0 +1,94 @@
+.marquee {
+    color: #000000;
+    font-style: Arial;
+    font-size: 18px;
+    diplay: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    padding: 10px 16px;
+    background: #FAFAD2;
+    color: #2E8B57;
+    font-style: Arial;
+    font-size: 20px;
+    display: flex;
+    justify-content: top;
+    align-items: top;
+}
+
+.body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #32CD32;
+    overflow-y: scroll;
+    background-image: url("https://img.freepik.com/premium-photo/cup-green-tea-isolated-white-background_728202-966.jpg");
+}
+
+.ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333333;
+    display: flex;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+    position: sticky;
+    top: 0;
+}
+
+.ul li a.active {
+    background-color: #04AA6D;
+
+.img {
+    width: 205px;
+    height: 260px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.p1 {
+    color: #000000;
+    font-size: 15px;
+    font-style: Arial;
+    margin-bottom: 40px;
+}
+
+.a {
+    margin-bottom: 40px;
+}
+
+.img {
+    margin-bottom: 40px;
+}
+
+.footer {
+    color: #000000;
+    font-size: 15px;
+    font-style: Arial;
+    margin-bottom: 40px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
