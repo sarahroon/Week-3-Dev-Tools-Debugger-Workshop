@@ -8,4 +8,5 @@ document.documentElement.scrollTop > 20) {
     mybutton.style.display = "block";
   } else {
     mybutton.style.display = "none";
+    debugger;
   }
